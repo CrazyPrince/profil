@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lobster&effect=shadow-multiple"
+    />
+    <title>BIOGRAPHIE CRAZY 237</title>
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  
+   }
+    
+  body {
+    margin: 0; 
+    padding: 0;
+    font-family:"Lobster";
+    width: 100%;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  header img{
+    width: 49%;
+    align-items: center;
+  }
+  section {
+    margin: 0px;
+
+    padding: 0px;
+    text-align: center;
+  }
+
+  footer {
+   padding:0px ;
+   margin:0px ;
+    bottom: 0;
+    background-color: #333;
+    color: #ebd7ef;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    position: absolute;
+
+    
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; overflow: hidden;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+nav ul li {
+    float: left;
+    overflow: hidden;
+    text-shadow:1px 1px #cc9898;
+   
+
+}
+
+nav ul li a {
+    
+    text-align: center;
+    padding: 10px 6px;
+    text-decoration: none;
+    color: #333;
+}
+.about_me{
+  color: #93d215;
+  text-align: center;
+  margin-top: 3%;
+  transform: inherit;
+
+  
+
+}
+.about_me h2{
+  color: #f2eaea;
+  text-align: center;
+  background: #333835;
+  width: 100%;
+  border: 5px  solid rgb(48, 44, 46) ;
+  overflow: hidden;
+  
+
+}
+.about_me h3 {
+  color: #ead4d6;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px rgb(133, 16, 216);
+  margin-top: -10px;
+  
+  
+  
+}
+.profile-picture {
+  width: 200px;
+  height: 200px; border-radius: 50%;
+  object-fit: cover;
+
+  object-position: center; margin-bottom: 20px;
+}
+  
+@media (max-width: 768px) { .profile-picture {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 600px) {
+  form { max-width: 100%;
+  }
+}
+.contact{
+  width: 100%;
+  text-align: center;
+  margin: 20px;
+}
+
+.social-media-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-media-links li {
+    display: inline-block;
+   
+    display:flexbox;
+}
+
+.social-media-links i {
+    width: 35px; /* Adjust the size as needed */
+    height: 35px;
+    background-color: #f5f6F0;
+    border-radius: 50px;
+    text-align: center;
+    margin: 5px;
+    box-shadow:1px 2px 6px 1px #dcdde1;
+    line-height: 35px;
+
+
+
+}
+.profile-picture a img{
+  transition: all 0.3s linear;
+  margin: 5px;
+  background-color: #67790c;
+    border-radius: 40px;
+  box-shadow:1px 2px 6px 1px #1635b2;
+}
+
+ a i{
+  transition: all 0.3s linear;
+}
+a:hover i
+{transform: scale(1.4);}
+.fa-github{
+  color: #333;
+}
+.fa-telegram{
+  color: #305acc;
+}
+.fa-whatsapp{
+  color: #green;
+}
+.fa-discord{
+  color: #blue;
+}
+/*bouton + */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;}
+#btn-mas{
+display: none;}
+.container{
+position: fixed;
+bottom: 20px;
+right: 20px;}
+.redes a, .icon-mas2{
+display: block;
+text-decoration: none;
+background: black;
+color: #fff;
+width: 55px;
+height: 55px;
+line-height: 55px;
+text-align: center;
+border-radius: 50%;
+box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+transition: all 500ms ease;}
+.redes a:hover{
+background: #fff;
+color: #cc2b2b;}
+.redes a{
+margin-bottom: -15px;
+opacity: 0;
+visibility: hidden;}
+#btn-mas:checked~ .redes a{
+margin-bottom: 10px;
+opacity: 1;
+visibility: visible;}
+.icon-mas2{
+cursor: pointer;
+background: black;
+font-size: 23px;}
+#btn-mas:checked ~ .btn-mas .icon-mas2{
+transform: rotate(137deg);
+font-size: 25px;}
+/**/
+</style>
+    
+
+
+
+  </head>
+  <body style="background-image: url(https://graph.org/file/b9dfcb0aafac0d0b2215c.jpg); background-repeat: no-repeat;background-attachment: fixed;
+  background-size: cover;" 
+   >
+   <header>
+    <nav>
+      <ul id="home">
+          <li><a href="#crazy">MENU</a></li>
+          <li><a href="home1.html">IMAGES</a>E</a></li>
+          
+         
+          <li><a href="#">A  PROPOS</a></li>
+      </ul>
+  </nav>
+    <div>
+    </header>
+    <main>
+      <h1 ><center style="color: #bea5c4; border-color: blue;">INFORMATIONS</center></h1>
+    <p align="center">
+      <a href="https://github.com/CrazyPrince"> <img src="https://github-readme-stats.vercel.app/api?username=CrazyPrince&count_private=true&show_icons=true&theme=chartreuse-dark&custom_title=What%27s+the+craic?&include_all_commits=true&hide_border=true&bg_color=000000" alt="longest streak" width="49%"></a> <br> 
+        <a href="https://github.com/CrazyPrince">  <img src="https://github-readme-streak-stats.herokuapp.com/?user=CrazyPrince&theme=chartreuse-dark&hide_border=True&bg_color=000000" alt="streak" width="49%"> </a>
+    </p> </main>
+    <div class="about_me" id="about"> 
+      <h2> A  PROPOS</h2>
+      <div class="about-section"> <a href="https://github.com/CrazyPrince"><img src="https://telegra.ph/file/cdd51454051ace3d679af.jpg" alt="Profile Picture" class="profile-picture" ></a>
+        <h3>CRAZY  PRINCE</h3>
+
+        <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=20&pause=1000&color=F72E12&random=false&lines=Salut !, je suis CrazyPrince; Comptable et hacker; Passioné html/css/JS/Python/php; Bots Whatsapp et CC Heroku; Graphic designer; Soccer fan CR7>>>>All Goat; Besoin d' apk premium ?; I'm CRAZY PRINCE; +237 620 114 013; Bye Bye !; &center=true&width=380&height=45">
+     
+     <section>
+      
+    
+    </div>
+    <div>
+      <ul class="social-media-links">
+        
+
+      <li> <a href="https://t.me/CrazyPrince777" target="_blank"><i class="fa-brands fa-2x fa-telegram"></i>
+      </a>
+        
+        </li>
+        <li>
+      
+        <a href="https://github.com/CrazyPrince" target="_blank"><i class="fa-brands fa-2x fa-github"></i>
+
+      </a></li>
+     <li>
+        <a href="wa.me/+237620114013" target="_blank"><i class="fa-brands fa-2x fa-whatsapp"></i>
+          
+      </a>
+    </li>
+      <li>  <a href="https://t.me/crazy_heroku_bins" target="_blank"> <i class="fa-brands fa-2x fa-discord"></i>
+          
+      </a></li> </ul></div>
+  <!-- <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=40&pause=1000&color=F72E12&random=false&width=435&lines=The+five+boxing+wizards+jump+quickly;How+vexingly+quick+daft+zebras+jump" alt="Typing SVG" /></a> -->
+<div class="contact">
+  
+  
+
+
+</div>
+    <footer>
+      <p>© 2024 CRAZY 237 Tous droits reservés.</p>
+    </footer>
+    
+</div>
+<div class="container">
+<input type="checkbox" id="btn-mas">
+<div class="redes">
+<a href="https://www.facebook.com/profile.php?id=100071146800113&mibextid=NTRm0r7WZyOdZZsz" class="fab fa-facebook-f"></a>
+<a href="https://api.whatsapp.com/send/?phone=237620114013&text=Hey!%20Monsieur%20Crazy" class="fab fa-whatsapp"></a>
+<a href="t.me/CrazyPrince777" class="fab fa-telegram"></a>
+<a href="https://github.com/CrazyPrince" class="fab fa-github"></a>
+</div>
+<div class="btn-mas">
+<label for="btn-mas" class="icon-mas2"><b>+</b></label>
+</div>
+</div>
+  </body>
+</html>
